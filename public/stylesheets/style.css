@@ -1,0 +1,17 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.main_el {
+  margin: 0 auto;
+  width: 400px;
+}
+
+#data {
+  font-size: 4px;
+}

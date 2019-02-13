@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    h2(class="main_el") #{ticker} timeseries for #{range}, #{entry} times
+    script(src='/javascripts/d3.min.js')
+    script(src='/javascripts/techan.min.js')
+    script(id="charter_script" src="/javascripts/construct_candlestick.js" data=data)
